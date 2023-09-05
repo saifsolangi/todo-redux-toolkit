@@ -1,8 +1,13 @@
+import AddTodo from "./components/AddTodo";
+import Todos from "./components/Todos";
+
 function App() {
   return (
-    <div className="font-bold">
-      Hello react
-    </div>
+    <>
+      <AddTodo />
+      <Todos />
+    </>
+
   );
 }
 
